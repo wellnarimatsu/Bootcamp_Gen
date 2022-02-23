@@ -1,0 +1,51 @@
+fun main(args: Array<String>) {
+
+
+   /*
+    //EXERCIO 1 DA LISTA - Faça um programa que receba três inteiros e diga qual deles é o maior.
+
+    var numUM = 0
+    var numDOIS = 0
+    var numTRES = 0
+    print("Digite o 1° Número: ")
+    numUM = readLine()!!.toInt()
+
+    print("Digite o 2° Número: ")
+    numDOIS = readLine()!!.toInt()
+
+
+    print("Digite o 3° Número: ")
+    numTRES = readLine()!!.toInt()
+
+    if(numUM > numDOIS && numUM > numTRES){
+        println("O maior Número dos três é: $numUM")
+
+    }else if (numDOIS > numUM && numDOIS > numTRES){
+        println("O maior Número dos três é: $numDOIS")
+    }else if (numTRES > numUM && numTRES > numDOIS){
+        println("O maior número dos três é: $numTRES")
+    }else{
+        println("OS TRÊS NÚMEROS SÃO IGUAIS")
+    }
+    */
+
+    /*
+    /* EXERCÍCIO 3 DA LISTA - Faça um programa que receba a idade de uma pessoa e mostre na saída
+    em qual categoria ela se encontra:
+    10-14 infantil
+    15-17 juvenil
+    18-25 adulto */
+
+
+    print("Digite a sua idade : ")
+    val idade = readLine()!!.toInt()
+
+    when(idade){
+        in 5..9 -> println("Sua categoria é jardim")
+        in 10..14 -> println("Sua categoria é infantil")
+        in 15..17 -> println("Sua categoria é juvenil")
+        in 18..25 -> println("Sua categoria é adulto")
+
+        else -> println("Você já é tiozão ou tiazona")
+    }*/
+}
