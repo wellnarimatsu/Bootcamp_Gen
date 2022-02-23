@@ -1,3 +1,5 @@
+import kotlin.math.sqrt
+
 fun main(args: Array<String>) {
 
 
@@ -48,4 +50,48 @@ fun main(args: Array<String>) {
 
         else -> println("Você já é tiozão ou tiazona")
     }*/
-}
+
+
+    /*
+    /*EXERCÍCIO 4 DA LISTA - Faça um programa em que permita a entrada de um número qualquer e exiba
+     se este número é par ou ímpar. Se for par exiba também a raiz quadrada do mesmo; se for ímpar exiba
+     o número elevado ao quadrado.*/
+
+
+    print("Digite um número: ")
+    var num = readLine()!!.toDouble()
+
+    if(num % 2.0 == 0.0 ){
+
+        println("Este número é par ")
+        println("A raiz quadrada deste número é ${sqrt(num) } ")
+    }else if (num % 2.0 == 1.0){
+        println("Este número é impar ")
+        println("E o quadrado deste número é: ${num*num}")
+    }else{
+        println("Digite um número positivo")
+    }*/
+
+    /*
+    /*
+    EXERCÍCIO 5 DA LISTA - Faça um programa que o usuário digite um número e o programa retorne o mês
+    referente ao valor.
+      */
+
+    print("Digite um Número e 1 a 12 :")
+    val num = readLine()!!.toInt()
+    when(num){
+        1 -> println("Janeiro")
+        2 -> println("Fevereiro")
+        3 -> println("Março")
+        4 -> println("Abril")
+        5 -> println("Maio")
+        6 -> println("Junho")
+        7 -> println("Julho")
+        8 -> println("Agosto")
+        9 -> println("Setembro")
+        10 -> println("Outubro")
+        11 -> println("Novembro")
+        12 -> println("Dezembro")
+        else -> print("Digite um número válido")
+    }*/
